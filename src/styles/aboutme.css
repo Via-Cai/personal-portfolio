@@ -1,0 +1,30 @@
+.aboutme {
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 30px;
+}
+.aboutme h1 {
+    text-align: left;
+    margin-left: 30px;
+    font-family: 'Poppins';
+    font-size: 30px;
+    color: #434145;
+}
+
+.aboutme h3 {
+    text-align: left;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 30px;
+    font-family: 'Junicode';
+    font-size: 25px;
+    color: #6E7881;
+}
