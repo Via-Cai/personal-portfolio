@@ -1,0 +1,7 @@
+.projects {
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0A192F;
+}

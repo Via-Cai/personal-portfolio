@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    background-color: #0A192F;
   }
   
   .about {
@@ -13,25 +13,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0A192F;
+ 
     color: #f0f0f0;
   }
   
   .about h2 {
+    position: relative;
+    display: inline-block;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 5vw;
+    font-size: 80px;
     color: #CCD6F6;
-    height: 20px;
-    text-align: left;
+    height: auto; /* Adjusted to 'auto' to fit the text size */
     margin-top: -5px;
+    margin-top: 1px;
+    border-right: 3px solid #CCD6F6;
+    padding-right: 5px;
+    animation: typing 3s steps(20) infinite;
   }
+
+  .about h2 ::after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color:  #0A192F;
+    width: 100%;
+  }
+
+  /* @keyframes typing {
+    to { width: 0% }
+  } */
   
   .about h3 {
     font-family: 'Proggy';
     font-size: 1.5vw;
     color: #54D6BB;
     height: 90px;
-    margin-top: -90px;
+    margin-top: 0px;
     margin-bottom: -40px;
   }
 
