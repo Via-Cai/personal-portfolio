@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     font-family: "Arial", sans-serif;
-    background-color: #0A192F;
+    background-color: #F1F2F2;
   }
 
 .aboutme {
@@ -13,19 +13,32 @@
     flex-direction: column;
 }
 
+.aboutme h2 {
+    position: relative;
+    display: inline-block;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:#98C2BD;
+    height: auto; /* Adjusted to 'auto' to fit the text size */
+    margin-top: -5px;
+    margin-bottom: 20px;
+    padding-right: 5px;
+    animation: typing 3s steps(20) infinite;
+  }
+
 .title{
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Poppins';
     font-weight: bold;
     margin-top: 30px;
-    color: #54D6BB;
+    color: #98C2BD;
 }
 .aboutme h1 {
     text-align: left;
     margin: 10px 0 0 30px;
     font-family: 'Poppins';
     font-size: 30px;
-    color: #f0f0f0;
+    color: #696969;
 }
 
 .aboutme h3 {
@@ -35,5 +48,10 @@
     margin: 0 0 30px 30px;
     font-family: 'Junicode';
     font-size: 25px;
-    color: #8892B0;
+    color: #424242;
+}
+
+.schools img {
+    width: 80px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
 }

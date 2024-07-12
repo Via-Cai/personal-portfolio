@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     font-family: "Arial", sans-serif;
-    background-color: #0A192F;
+    background-color: #F1F2F2;
   }
   
   .about {
@@ -22,11 +22,10 @@
     display: inline-block;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    color: #CCD6F6;
+    color:#98C2BD;
     height: auto; /* Adjusted to 'auto' to fit the text size */
     margin-top: -5px;
-    margin-top: 1px;
-    border-right: 3px solid #CCD6F6;
+    margin-bottom: 5px;
     padding-right: 5px;
     animation: typing 3s steps(20) infinite;
   }
@@ -35,7 +34,7 @@
     content: '|';
     position: absolute;
     right: 0;
-    color: white;
+    color: #696969;
     background-color:  #0A192F;
     width: 100%;
   }
@@ -46,27 +45,36 @@
   
   .about h3 {
     font-family: 'Proggy';
-    font-size: 1.5vw;
-    color: #54D6BB;
+    font-size: 25px;
+    color:  #696969;
     height: 90px;
     margin-top: 0px;
-    margin-bottom: -40px;
+    margin-bottom: -50px;
   }
 
   .about .prompt {
     font-family: 'Proggy';
     width: 70%;
     font-size: 30px;
-    color: #8892B0;
+    color:  #696969;
   }
   .prompt svg {
     font-size: 40px;
     margin: 5px;
-    color: white;
+    color: #98C2BD;;
   }
   
     .about .prompt {
-      margin-top: 10px;
+      margin-top: 5px;
       font-size: 25px;
       width: 60%;
     }
+
+    .logos img {
+      margin-top: 20px;
+      margin-left: 10px ;
+      width: 80px; /* Set the desired width */
+      height: auto; /* Maintain the aspect ratio */
+  }
+
+

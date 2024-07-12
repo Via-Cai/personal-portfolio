@@ -4,7 +4,7 @@
   justify-content: space-between;
   width: 100%;
   height: 60px;
-  background: #54D6BB;
+  background: #424242;
   }
   
   .MuiTypography-root {
@@ -24,17 +24,31 @@
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
     color: #0A192F;
+    padding: 0; /* Ensure no padding */
+    margin: 0; /* Ensure no margin */
+  }
+
+  .navbar h2 {
+    text-align: left;
+    font-family: 'Proggy';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    white-space: nowrap; /* Ensure text does not wrap */
   }
 
   .links a:hover {
-    color: white; /* Underline on hover */
+    color: #98C2BD; /* Underline on hover */
+}
+.links a:focus {
+  color: #98C2BD; /* Underline on hover */
 }
 
   .navbar a {
-    color: #0A192F;
+    color: white;
     text-decoration: none;
     margin-right: 40px;
     font-size: 16px;
@@ -112,20 +126,20 @@
   }
 
   .resume-button {
-    background-color: #0A192F; /* Green background */
+    background-color: #98C2BD; /* Green background */
     font-family: 'Poppins', sans-serif;
     border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 10px 20px; /* Some padding */
+    color: black; /* White text */
+    padding: 6px 10px; /* Some padding */
     text-align: center; /* Centered text */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Make the container an inline block */
-    font-size: 16px; /* Increase font size */
+    font-size: 15px; /* Increase font size */
     margin: 4px 2px; /* Some margin */
     cursor: pointer; /* Pointer/hand icon */
     border-radius: 10px; /* Rounded corners */
   }
   
   .links .resume-button:hover {
-    background-color:  #8892B0; /* Darker green */
+    background-color:  white;
   }

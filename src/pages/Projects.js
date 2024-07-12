@@ -3,8 +3,9 @@ import '../styles/Projects.css'
 
 function Projects() {
   return (
-    <div className='projects'>
+    <div className='projectss'>
       Projects
+      dfsghjfdsghkjl;k.hgd
     </div>
   )
 }

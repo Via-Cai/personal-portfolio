@@ -10,10 +10,10 @@ function Footer() {
     <div className='footer'>
         <div className='socialMedia'>
             <a href = "https://www.linkedin.com/" target="_blank"><LinkedInIcon /></a>
-            <a href = "https://github.com/Llivi-Jaaz" target="_blank"><GitHubIcon /></a>
+            <a href = "https://github.com/Via-Cai" target="_blank"><GitHubIcon /></a>
             <a href = "mailto:llivicaina@gmail.com" target="_blank"><EmailIcon /></a>
         </div>
-        <p> 09764774893 | llivicaina@gmail.com <br></br> &copy; 2024 vercel.com </p>
+        <p>Allivia Jaazielle Caina <br></br>09764774893 | via.caina@gmail.com <br></br> &copy; 2024 vercel.com </p>
     </div>
   )
 }
