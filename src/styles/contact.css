@@ -16,7 +16,8 @@
     justify-content: center; /* Center items vertically */
     width: 400px;
     height: 400px;
-    background-color: #98C2BD;
+    background-color: black;
+    
     border-radius: 20px;
   }
   
