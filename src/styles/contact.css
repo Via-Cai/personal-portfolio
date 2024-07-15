@@ -12,11 +12,12 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
+    align-items: left; /* Center items horizontally */
+    padding: 10px;
     justify-content: center; /* Center items vertically */
     width: 400px;
     height: 400px;
-    background-color: black;
+    background-color:#98C2BD;
     
     border-radius: 20px;
   }
@@ -24,8 +25,6 @@
 
 .card h1 {
     text-align: center;
-    margin-top: 2px;
-    margin-bottom: 2px;
     font-family: 'Poppins';
     font-size: 40px;
     color: #f0f0f0;
@@ -48,6 +47,7 @@
 .Get-in-touch {
     background-color: #696969;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
     border: none;
     color: black;
     padding: 10px 20px;

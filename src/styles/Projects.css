@@ -1,7 +1,50 @@
 .projects {
-    text-align: left;
-    margin-left: 30px;
     display: flex;
-    flex-direction: column;
-    background-color: #0A192F;
-}
+    flex-direction: column; /* Stack the heading and cards-container vertically */
+    align-items: center; /* Center all children horizontally */
+    background-color: #F1F2F2;
+    padding: 20px; /* Add padding around the container */
+  }
+  
+  .projects h1 {
+    margin-bottom: 20px; /* Space between heading and cards-container */
+    font-size: 40px; /* Adjusted font size */
+    color: #696969;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-direction: row; /* Align cards horizontally */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 50px; /* Space between cards */
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column; /* Stack content inside each card vertically */
+    align-items: center; /* Center content horizontally within the card */
+    justify-content: center; /* Center content vertically within the card */
+    width: 300px;
+    height: 300px;
+    background-color: #98C2BD;
+    border-radius: 30px;
+  }
+  
+  .title-container, .description-container {
+    display: flex;
+    flex-direction: row; /* Align titles and descriptions horizontally */
+    justify-content: center; /* Center titles and descriptions horizontally */
+    gap: 50px; /* Space between titles and descriptions */
+    margin-top: 10px; /* Space between cards-container and title/description containers */
+  }
+  
+  .title-container > .title, .description-container > .description {
+    text-align: center; /* Center text in each title/description */
+    width: 300px; /* Match card width */
+  }
+  
+  .description-container {
+    margin-top: 5px; /* Space between titles and descriptions */
+  }
+  
