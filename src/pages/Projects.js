@@ -33,7 +33,7 @@ function Projects() {
             </div>
           </a>
         </div>
-        <div className='card'>
+        {/* <div className='card'>
           <a href='#' className='card-link'>
             <div className='card-content'>
               <h2>Project 4</h2>
@@ -56,7 +56,7 @@ function Projects() {
               <p>Description of project 6.</p>
             </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

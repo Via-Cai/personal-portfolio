@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <img src = '/prof2.png' alt='Profile' className='profile-picture'/>
+        <img src = '/prof3.jpg' alt='Profile' className='profile-picture'/>
         <h3>Hi, my name is</h3>
         <h2>Allivia Jaazielle Caiña.</h2>
         <div className='prompt'>

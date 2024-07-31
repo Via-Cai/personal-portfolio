@@ -36,7 +36,8 @@ function Navbar() {
       <div className='links'>
         <NavLink to="/"  activeClassName="active-link">  <span style={{ color: 'white' }}>01.</span>Home </NavLink>
         <NavLink to="/projects" activeClassName="active-link">  <span style={{ color: 'white' }}>02.</span>Projects </NavLink>
-        <NavLink to="/contact"  activeClassName="active-link"><span style={{ color: 'white' }}>03.</span>Contacts </NavLink>
+        <NavLink to="/certifications" activeClassName="active-link">  <span style={{ color: 'white' }}>03.</span>Certifications </NavLink>
+        <NavLink to="/contact"  activeClassName="active-link"><span style={{ color: 'white' }}>04.</span>Contacts </NavLink>
         <button onClick={downloadResume} className="resume-button">DOWNLOAD RESUME</button>
       </div>
     </div>
