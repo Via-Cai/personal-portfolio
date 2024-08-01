@@ -1,3 +1,7 @@
+.combined-page{
+  background-color: #F1F2F2;
+}
+
 .home {
     width: 100%;
     display: flex;
@@ -59,6 +63,10 @@
     margin-bottom: -50px;
   }
 
+  .about span{
+    text-decoration: bold;
+  }
+
   .about .prompt {
     font-family: 'Proggy';
     width: 70%;
@@ -85,3 +93,68 @@
   }
 
 
+  .portfolio {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .portfolio h1{
+    position: relative;
+    margin-bottom: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:#98C2BD;
+  }
+  
+  .portfolio p{
+    font-family: 'Proggy';
+    font-size: 20px;
+    color:  #696969;
+    height: 90px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* gap between cards */
+    justify-content: center; /* center align the grid */
+    
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+    width: 100%; /* ensure cards fill the grid cells */
+  
+  }
+  
+  .card-link{
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card h2 {
+    margin: 0 0 10px;
+  }
+  
+  .card p {
+    color: #777;
+  }
+  

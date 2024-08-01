@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  height: auto;
+  height: 140px;
   background: #424242;
   display: flex;
   justify-content: center;
@@ -12,6 +12,7 @@
 .socialMedia svg {
   color: white;
   margin: 10px;
+  margin-top: 25px;
   margin-bottom: 0;
   font-size: 50px;
   cursor: pointer;
