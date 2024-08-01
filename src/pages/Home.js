@@ -1,8 +1,4 @@
 import React, { useState } from 'react';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import EmailIcon from '@material-ui/icons/Email';
-import Navbar from '../components/Navbar'; // Adjust this path if necessary
 import "../styles/Home.css";
 import "../styles/Projects.css";
 import "../styles/certs.css";
@@ -53,10 +49,10 @@ function CombinedPage() {
         <p>These projects showcase my expertise in handling data through meticulous processes of cleaning, wrangling, analysis, and visualization.</p>
         <div className='cards-container'>
           <div className='card'>
-            <a href='#' className='card-link'>
+            <a href='project1' className='card-link'>
               <div className='card-content'>
                 <h2>Plant Corporation Quantity Performance 2023</h2>
-                <p>Description of project 1.</p>
+                <p>Excel and PowerBI</p>
               </div>
             </a>
           </div>
@@ -64,7 +60,7 @@ function CombinedPage() {
             <a href='#' className='card-link'>
               <div className='card-content'>
                 <h2>Two-Week Temperature Analysis and Data Visualization in Pasay City</h2>
-                <p>Description of project 2.</p>
+                <p>Python Libraries - Pandas, Seaborn & Matplotlib</p>
               </div>
             </a>
           </div>

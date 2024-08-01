@@ -1,152 +1,144 @@
+
 .navbar {
+  margin-top: 0px;
+  position: fixed; /* Fixes the Navbar to the top */
+  top: 0; /* Aligns to the top of the viewport */
+  left: 0; /* Aligns to the left of the viewport */
+  width: 100%; /* Full width */
+  height: 50px; /* Height of the Navbar */
+  background: #424242; /* Background color */
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 60px;
-  background: #424242;
-  }
-  
-  .MuiTypography-root {
-    font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-  }
-  .MuiTypography-h4 {
-    font-size: 30px;
-    text-align: left;
-    margin: 20px;
-  }
-
-  .links {
-    font-family: 'Proggy';
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    color: #98C2BD;
-    padding: 0; /* Ensure no padding */
-    margin: 0; /* Ensure no margin */
-  }
-
-  .navbar h2 {
-    text-align: left;
-    font-family: 'Proggy';
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    margin-left: 10px;
-    white-space: nowrap; /* Ensure text does not wrap */
-  }
-
-  .links a:hover {
-    color: #98C2BD; /* Underline on hover */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  z-index: 1000; /* Ensure it’s above other content */
 }
+/* Links styling */
+.links {
+  font-family: 'Proggy';
+  font-weight: 100;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  color: #98C2BD;
+  padding: 0; /* Ensure no padding */
+  margin: 0; /* Ensure no margin */
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+.links a:hover {
+  color: #98C2BD; /* Hover color */
+}
+
 .links a:focus {
-  color: #98C2BD; /* Underline on hover */
+  color: #98C2BD; /* Focus color */
 }
+
 .active-link {
-  color: #98C2BD; /* Underline on hover */
+  color: #98C2BD; /* Active link color */
 }
 
 .active-link span {
-  color: #98C2BD; /* Underline on hover */
+  color: #98C2BD; /* Active link span color */
 }
 
+.toggleButton {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+
+.toggleButton button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px; /* Adjust or remove if needed */
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+/* Responsive design adjustments */
+@media only screen and (max-width: 900px) {
   .navbar a {
-    color: white;
-    text-decoration: none;
-    margin-right: 40px;
-    font-size: 16px;
+    width: 70px;
   }
+}
 
+@media only screen and (max-width: 600px) {
   .toggleButton {
-    width: 100%;
-    height: 100px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
   }
-  
-  .toggleButton svg {
-    font-size: 50px;
+
+  #close a {
+    display: none;
   }
-  .toggleButton button {
-    margin-right: 20px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .toggleButton {
+    display: none;
   }
-  
+
+  .hiddenLinks {
+    display: none;
+  }
+
   #open {
-    height: 100vh;
+    height: 100px;
   }
-  
+
   #open .links {
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 100px;
+    flex-direction: row;
   }
-  
-  #open a {
-    width: 100%;
-    text-align: center;
-  }
-  
-  @media only screen and (max-width: 900px) {
-    .navbar a {
-      width: 70px;
-    }
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .toggleButton {
-      display: flex;
-    }
-    #close a {
-      display: none;
-    }
-  }
-  
-  @media only screen and (min-width: 600px) {
-    .toggleButton {
-      display: none;
-    }
-  
-    .hiddenLinks {
-      display: none;
-    }
-  
-    #open {
-      height: 100px;
-    }
-  
-    #open .links {
-      flex-direction: row;
-    }
-  }
+}
 
-  .resume-button-container {
-    margin-left: auto; /* Pushes the button to the right */
-  }
+/* Resume button styling */
+.resume-button-container {
+  margin-left: auto; /* Pushes the button to the right */
+}
 
-  .resume-button {
-    background-color: #98C2BD; /* Green background */
-    font-family: 'Poppins', sans-serif;
-    border: none; /* Remove borders */
-    color: black; /* White text */
-    padding: 6px 10px; /* Some padding */
-    text-align: center; /* Centered text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Make the container an inline block */
-    font-size: 15px; /* Increase font size */
-    margin: 4px 2px; /* Some margin */
-    cursor: pointer; /* Pointer/hand icon */
-    border-radius: 10px; /* Rounded corners */
-  }
-  
-  .links .resume-button:hover {
-    background-color:  white;
-  }
+.resume-button {
+  background-color: #98C2BD; /* Green background */
+  font-family: 'Poppins', sans-serif;
+  border: none; /* Remove borders */
+  color: black; /* Black text */
+  padding: 6px 10px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the container an inline block */
+  font-size: 15px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.links .resume-button:hover {
+  background-color: white;
+}
