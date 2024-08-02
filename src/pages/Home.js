@@ -21,22 +21,22 @@ function CombinedPage() {
     <div className='combined-page'>
       <div id="home" className='home'>
         <div className='about'>
-          <img src='/prof2.png' alt='Profile' className='profile-picture' />
+          <img src='/prof4.jpg' alt='Profile' className='profile-picture' />
           <h3>Hi, my name is</h3>
           <h2>Allivia Jaazielle Caiña.</h2>
           <div className='prompt'>
             <p>
-              A <b>Computer Engineering</b> graduate from Adamson University. I am currently
-              focusing on Web Development and Data Analytics using Excel, Python, SQL, NoSQL and Power BI.
+              A <b>Computer Engineering</b> fresh graduate of Adamson University. I am currently
+              focusing on Data Analytics and Data Visualization using Excel, Python, SQL, NoSQL and Power BI.
             </p>
           </div>
           <div className='logos'>
             <img src='/logos/excel.png' alt='Excel Logo' />
             <img src='/logos/python.png' alt='Python Logo' />
             <img src='/logos/sql.png' alt='SQL Logo' />
+            <img src='/logos/mongo.png' alt='Mongo Logo' />
             <img src='/logos/powerbi.png' alt='Power BI Logo' />
             <img src='/logos/github.png' alt='GitHub Logo' />
-            <img src='/logos/mongo.png' alt='Mongo Logo' />
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ function CombinedPage() {
           <div className='card'>
             <a href='project1' className='card-link'>
               <div className='card-content'>
-                <h2>Plant Corporation Quantity Performance 2023</h2>
+                <h2>PLANT CORPORATION QUANTITY PERFORMANCE 2023</h2>
                 <p>Excel and PowerBI</p>
               </div>
             </a>
@@ -59,7 +59,7 @@ function CombinedPage() {
           <div className='card'>
             <a href='#' className='card-link'>
               <div className='card-content'>
-                <h2>Two-Week Temperature Analysis and Data Visualization in Pasay City</h2>
+                <h2>TWO-WEEK TEMPERATURE ANALYSIS AND DATA VISUALIZATION IN PASAY CITY</h2>
                 <p>Python Libraries - Pandas, Seaborn & Matplotlib</p>
               </div>
             </a>
@@ -67,8 +67,8 @@ function CombinedPage() {
           <div className='card'>
             <a href='#' className='card-link'>
               <div className='card-content'>
-                <h2>Project 3</h2>
-                <p>Description of project 3.</p>
+                <h2>INVENTORY CONTROL MANAGEMENT DATABASE PROJECT</h2>
+                <p>Database Management: PostgreSQL</p>
               </div>
             </a>
           </div>
@@ -94,7 +94,7 @@ function CombinedPage() {
           />
           <img
             id="cert1"
-            src="cert1.jpg"
+            src="placeholder.jpg"
             alt="Descriptive Alt Text"
             onClick={() => openLightbox('cert1.jpg')}
           />

@@ -1,7 +1,7 @@
 .divider-wrapper {
   width: 100%; /* Full width of the container */
   height: 100px; /* Increased height */
-  margin-top: 20px;
+  margin-top: 40px;
   overflow: hidden; /* Hide any overflow */
   text-align: center; /* Center the content */
   position: absolute; /* Ensure proper positioning */

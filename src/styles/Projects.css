@@ -20,24 +20,21 @@
   color:  #696969;
   height: 90px;
   margin-top: 5px;
-  margin-bottom: -50px;
 }
 
 .cards-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 20px; /* gap between cards */
+  gap: 30px; /* gap between cards */
   justify-content: center; /* center align the grid */
   
 }
 
 .card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  border: 3px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(41, 169, 183);
   overflow: hidden;
-  text-decoration: none;
   color: inherit;
   transition: transform 0.2s;
   width: 100%; /* ensure cards fill the grid cells */
@@ -45,8 +42,12 @@
 }
 
 .card-link{
+  font-family: 'Poppins';
   color: inherit; /* Inherit color from parent */
   text-decoration: none; /* Remove underline */
+  text-align: left;
+  color: #387d75;
+  font-size: 18px;
 }
 .card:hover {
   transform: scale(1.05);
@@ -61,5 +62,5 @@
 }
 
 .card p {
-  color: #777;
+  color: #545454;
 }
