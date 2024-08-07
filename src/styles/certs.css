@@ -1,7 +1,7 @@
-/* contact.css */
 .certs {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 .certs h1{
     position: relative;
@@ -45,7 +45,6 @@ img {
     position: absolute;
     top: 20px;
     right: 30px;
-    color: #fff;
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
