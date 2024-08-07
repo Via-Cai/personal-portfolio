@@ -1,8 +1,8 @@
 .certs {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 30px;
 }
+
 .certs h1{
     position: relative;
     display: inline-block;
@@ -14,6 +14,7 @@
   }
 .image-container {
     text-align: center;
+
 }
 
 img {

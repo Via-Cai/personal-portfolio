@@ -53,6 +53,7 @@ function CombinedPage() {
               <div className='card-content'>
                 <h2>PLANT CORPORATION QUANTITY PERFORMANCE 2023</h2>
                 <p>Excel and PowerBI</p>
+                <button type='button'>Click to open</button>
               </div>
             </a>
           </div>
@@ -61,6 +62,7 @@ function CombinedPage() {
               <div className='card-content'>
                 <h2>TWO-WEEK TEMPERATURE ANALYSIS AND DATA VISUALIZATION IN PASAY CITY</h2>
                 <p>Python Libraries - Pandas, Seaborn & Matplotlib</p>
+                <button type='button'>Click to open</button>
               </div>
             </a>
           </div>
@@ -69,6 +71,7 @@ function CombinedPage() {
               <div className='card-content'>
                 <h2>INVENTORY CONTROL MANAGEMENT DATABASE PROJECT</h2>
                 <p>Database Management: PostgreSQL</p>
+                <button type='button'>Click to open</button>
               </div>
             </a>
           </div>

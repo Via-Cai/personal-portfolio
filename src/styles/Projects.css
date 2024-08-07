@@ -33,12 +33,27 @@
 .card {
   border: 3px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgb(41, 169, 183);
+  box-shadow: 0 4px 8px #387d75;
   overflow: hidden;
   color: inherit;
-  transition: transform 0.2s;
   width: 100%; /* ensure cards fill the grid cells */
+  position: relative; /* Ensure the card is positioned relative */
+}
 
+.card button {
+  background: #ADD8E6;
+  border-radius: 8px;
+  border-color: #387d75;
+  border-width: 4px;
+  margin: 0;
+  color: gray;
+  font: inherit;
+  font-size: 14px;
+  padding: 10px 16px;
+  position: absolute; /* Position absolute to place the button */
+  bottom: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  cursor: pointer;
 }
 
 .card-link{
@@ -49,16 +64,14 @@
   color: #387d75;
   font-size: 18px;
 }
-.card:hover {
-  transform: scale(1.05);
-}
 
 .card-content {
-  padding: 20px;
+  padding: 10px;
 }
 
 .card h2 {
   margin: 0 0 10px;
+  margin-top: -100px;
 }
 
 .card p {
