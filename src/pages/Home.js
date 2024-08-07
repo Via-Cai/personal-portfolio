@@ -75,7 +75,7 @@ function CombinedPage() {
         </div>
       </div>
       <div class="divider-wrapper">
-          <img src="/divider2.png" alt="Divider" class="divider" />
+          <img src="/divider1.png" alt="Divider" class="divider" />
       </div>
       <div id="certifications" className='certs'>
         <h1>My Certifications</h1>
@@ -93,10 +93,10 @@ function CombinedPage() {
             onClick={() => openLightbox('cert2.jpg')}
           />
           <img
-            id="cert1"
+            id="cert3"
             src="placeholder.jpg"
             alt="Descriptive Alt Text"
-            onClick={() => openLightbox('cert1.jpg')}
+            onClick={() => openLightbox('cert3.jpg')}
           />
         </div>
         {isLightboxOpen && (
@@ -107,7 +107,7 @@ function CombinedPage() {
         )}
       </div>
       <div class="divider-wrapper">
-          <img src="/divider3.png" alt="Divider" class="divider" />
+          <img src="/divider1.png" alt="Divider" class="divider" />
       </div>
       <div id="contact" className='box'>
         <div className='card'>
