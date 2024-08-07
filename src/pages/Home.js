@@ -106,7 +106,7 @@ function CombinedPage() {
           </div>
         )}
       </div>
-      <div class="divider-wrapper">
+      {/* <div class="divider-wrapper">
           <img src="/divider1.png" alt="Divider" class="divider" />
       </div>
       <div id="contact" className='box'>
@@ -128,7 +128,7 @@ function CombinedPage() {
             <input type="submit" value="Get in touch" className="get-in-touch"/>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
