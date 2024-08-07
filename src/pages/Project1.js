@@ -1,14 +1,16 @@
 import React from 'react'
 import "../styles/project1.css";
 
-function project1() {
+function Project1() {
   return (
     <div className='project1'>
-      <h1>Plant Corporation Quantity Performance 2023</h1>
-        <a href = "/resumepdf.pdf" download = "Resume">Resume</a>
-     
+      <div className='space'></div>
+      <div className='pictures'>
+        <img src="proj1_1.png" alt="Homepage"/>
+        <img src="proj1_2.png" alt="Powerbi"/>
+      </div>
     </div>
   )
 }
 
-export default project1
+export default Project1;
