@@ -31,6 +31,8 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   border: 3px;
   border-radius: 8px;
   box-shadow: 0 4px 8px #387d75;
@@ -71,7 +73,8 @@
 
 .card h2 {
   margin: 0 0 10px;
-  margin-top: -100px;
+  padding: 0;
+  align-self: flex-start; /* Aligns the heading to the start (top) of the card */
 }
 
 .card p {

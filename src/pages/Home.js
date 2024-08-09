@@ -27,7 +27,7 @@ function CombinedPage() {
           <div className='prompt'>
             <p>
               A <b>Computer Engineering</b> fresh graduate of Adamson University. I am currently
-              focusing on Data Analytics and Data Visualization using Excel, Python, SQL, NoSQL and Power BI.
+              focusing on Data Analytics, Data Engineering and Data Visualization using Excel, Python, SQL, NoSQL and Power BI.
             </p>
           </div>
           <div className='logos'>
@@ -58,7 +58,7 @@ function CombinedPage() {
             </a>
           </div>
           <div className='card'>
-            <a href='#' className='card-link'>
+            <a href='project2' className='card-link'>
               <div className='card-content'>
                 <h2>TWO-WEEK TEMPERATURE ANALYSIS AND DATA VISUALIZATION IN PASAY CITY</h2>
                 <p>Python Libraries - Pandas, Seaborn & Matplotlib</p>
@@ -67,10 +67,10 @@ function CombinedPage() {
             </a>
           </div>
           <div className='card'>
-            <a href='#' className='card-link'>
+            <a href='project3' className='card-link'>
               <div className='card-content'>
-                <h2>INVENTORY CONTROL MANAGEMENT DATABASE PROJECT</h2>
-                <p>Database Management: PostgreSQL</p>
+                <h2>DASHBOARD CREATION FOR REAL ESTATE AND PROPERTY MANAGEMENT</h2>
+                <p>Power BI</p>
                 <button type='button'>Click to open</button>
               </div>
             </a>
