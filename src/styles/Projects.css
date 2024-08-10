@@ -25,7 +25,7 @@
 .cards-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 30px; /* gap between cards */
+  gap: 40px; /* gap between cards */
   justify-content: center; /* center align the grid */
   
 }

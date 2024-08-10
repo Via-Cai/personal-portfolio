@@ -6,8 +6,7 @@ function Project3() {
     <div className='project1'>
       <div className='space'></div>
       <div className='pictures'>
-        <img src="proj2_1.png" alt="Homepage"/>
-        <img src="proj2_2.png" alt="DataVis"/>
+        <img src="proj3_dash.png" alt="Homepage"/>
       </div>
     </div>
   )

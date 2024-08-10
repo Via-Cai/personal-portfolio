@@ -46,7 +46,7 @@ function CombinedPage() {
 
       <div id="projects" className='portfolio'>
         <h1>My Projects</h1>
-        <p>These projects showcase my expertise in handling data through meticulous processes of cleaning, wrangling, analysis, and visualization.</p>
+        <p>These projects showcase my expertise in handling data through meticulous processes of <b>cleaning</b>, <b>wrangling</b>, <b>analysis</b>, and <b>visualization</b>.</p>
         <div className='cards-container'>
           <div className='card'>
             <a href='project1' className='card-link'>
