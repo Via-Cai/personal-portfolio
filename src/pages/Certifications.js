@@ -31,10 +31,10 @@ function Certifications() {
           onClick={() => openLightbox('cert2.jpg')}
         />
         <img
-          id="cert1"
-          src="cert1.jpg"
+          id="cert3"
+          src="cert3.png"
           alt="Descriptive Alt Text"
-          onClick={() => openLightbox('cert1.jpg')}
+          onClick={() => openLightbox('cert3.png')}
         />
       </div>
       {isLightboxOpen && (

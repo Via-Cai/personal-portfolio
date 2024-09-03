@@ -21,7 +21,7 @@ function CombinedPage() {
     <div className='combined-page'>
       <div id="home" className='home'>
         <div className='about'>
-          <img src='/prof4.jpg' alt='Profile' className='profile-picture' />
+          <img src='/gradpic1.jpg' alt='Profile' className='profile-picture' />
           <h3>Hi, my name is</h3>
           <h2>Allivia Jaazielle Caiña.</h2>
           <div className='prompt'>
@@ -81,7 +81,7 @@ function CombinedPage() {
           <img src="/divider1.png" alt="Divider" class="divider" />
       </div>
       <div id="certifications" className='certs'>
-        <h1>My Certifications</h1>
+        <h1>My Certificates</h1>
         <div className="image-container">
           <img
             id="cert1"
@@ -95,11 +95,19 @@ function CombinedPage() {
             alt="Descriptive Alt Text"
             onClick={() => openLightbox('cert2.jpg')}
           />
+          </div>
+          <div id="certifications" className='certs'>
           <img
+            id="cert4"
+            src="cert4.png"
+            alt="Introduction to SQL"
+            onClick={() => openLightbox('cert4.png')}
+          />
+            <img
             id="cert3"
-            src="placeholder.jpg"
-            alt="Descriptive Alt Text"
-            onClick={() => openLightbox('cert3.jpg')}
+            src="cert3.png"
+            alt="Intermediate SQL"
+            onClick={() => openLightbox('cert3.png')}
           />
         </div>
         {isLightboxOpen && (
