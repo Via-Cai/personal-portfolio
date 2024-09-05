@@ -21,7 +21,7 @@ function CombinedPage() {
     <div className='combined-page'>
       <div id="home" className='home'>
         <div className='about'>
-          <img src='/gradpic1.jpg' alt='Profile' className='profile-picture' />
+          <img src='/prof4.jpg' alt='Profile' className='profile-picture' />
           <h3>Hi, my name is</h3>
           <h2>Allivia Jaazielle Caiña.</h2>
           <div className='prompt'>
