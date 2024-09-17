@@ -79,45 +79,46 @@ function CombinedPage() {
         </div>
       </div>
       <div class="divider-wrapper">
-          <img src="/divider1.png" alt="Divider" class="divider" />
-      </div>
-      <div id="certifications" className='certs'>
-        <h1>My Certificates</h1>
-        <div className="image-container">
-          <img
-            id="cert1"
-            src="cert1.jpg"
-            alt="Descriptive Alt Text"
-            onClick={() => openLightbox('cert1.jpg')}
-          />
-          <img
-            id="cert2"
-            src="cert2.jpg"
-            alt="Descriptive Alt Text"
-            onClick={() => openLightbox('cert2.jpg')}
-          />
-          </div>
-          <div id="certifications" className='certs'>
-          <img
-            id="cert4"
-            src="cert4.png"
-            alt="Introduction to SQL"
-            onClick={() => openLightbox('cert4.png')}
-          />
-            <img
-            id="cert3"
-            src="cert3.png"
-            alt="Intermediate SQL"
-            onClick={() => openLightbox('cert3.png')}
-          />
-        </div>
-        {isLightboxOpen && (
-          <div className="lightbox" onClick={closeLightbox}>
-            <span className="close" onClick={closeLightbox}>&times;</span>
-            <img className="lightbox-content" src={lightboxImage} alt="Zoomed Image" />
-          </div>
-        )}
-      </div>
+  <img src="/divider1.png" alt="Divider" class="divider" />
+</div>
+
+<div id="certifications" className="certs">
+  <h1>My Certificates</h1>
+  <div className="image-container-horizontal">
+    <img
+      id="cert1"
+      src="cert1.jpg"
+      alt="Descriptive Alt Text"
+      onClick={() => openLightbox('cert1.jpg')}
+    />
+    <img
+      id="cert2"
+      src="cert2.jpg"
+      alt="Descriptive Alt Text"
+      onClick={() => openLightbox('cert2.jpg')}
+    />
+    <img
+      id="cert4"
+      src="cert4.png"
+      alt="Introduction to SQL"
+      onClick={() => openLightbox('cert4.png')}
+    />
+    <img
+      id="cert3"
+      src="cert3.png"
+      alt="Intermediate SQL"
+      onClick={() => openLightbox('cert3.png')}
+    />
+  </div>
+
+  {isLightboxOpen && (
+    <div className="lightbox" onClick={closeLightbox}>
+      <span className="close" onClick={closeLightbox}>&times;</span>
+      <img className="lightbox-content" src={lightboxImage} alt="Zoomed Image" />
+    </div>
+  )}
+</div>
+
       {/* <div class="divider-wrapper">
           <img src="/divider1.png" alt="Divider" class="divider" />
       </div>
