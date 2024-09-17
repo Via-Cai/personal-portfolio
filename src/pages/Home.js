@@ -51,7 +51,8 @@ function CombinedPage() {
           <div className='card'>
             <a href='project1' className='card-link'>
               <div className='card-content'>
-                <h2>PLANT CORPORATION QUANTITY PERFORMANCE 2023</h2>
+              <img src="sales.png" alt="sales" class="sales" />
+                <h2>COMPANY SALES REPORT DASHBOARD FOR 2014-2017</h2>
                 <p>Excel and PowerBI</p>
                 <button type='button'>Click to open</button>
               </div>
