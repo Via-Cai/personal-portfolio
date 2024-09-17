@@ -9,6 +9,7 @@ function Project1() {
         <img src="proj1_1.png" alt="Homepage"/>
         <img src="proj1_2.png" alt="Powerbi"/>
         <img src="sales.png" alt="Powerbi"/>
+        <img src="HomePage.png" alt="Powerbi"/>
       </div>
     </div>
   )
