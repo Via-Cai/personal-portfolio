@@ -22,7 +22,7 @@
   }
   
   .image-container-horizontal img {
-    width: 200px; /* Set a fixed width for the images */
+    width: 300px; /* Set a fixed width for the images */
     margin-right: 10px; /* Adds space between images */
   }
   

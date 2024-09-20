@@ -25,16 +25,16 @@
 .cards-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 40px; /* gap between cards */
+  gap: 5px 50px; /* gap between cards */
   justify-content: center; /* center align the grid */
+  margin-bottom: 2px;
   
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  border: 3px;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0 4px 8px #387d75;
   overflow: hidden;
   color: inherit;

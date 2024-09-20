@@ -23,11 +23,12 @@ function CombinedPage() {
         <div className='about'>
           <img src='/prof4.jpg' alt='Profile' className='profile-picture' />
           <h3>Hi, my name is</h3>
-          <h2>Allivia Jaazielle Caiña.</h2>
+          <h2>~VIA CAIÑA~</h2>
+          <h4>Business Intelligence Analyst & Developer</h4>
           <div className='prompt'>
             <p>
               A <b>Computer Engineering</b> fresh graduate of Adamson University. I am currently
-              focusing on Data Analytics, Data Engineering and Data Visualization using Excel, Python, SQL, NoSQL and Power BI.
+              focusing on Data Analytics, Data Engineering and Data Visualization using Excel, Python, PostgreSQL, NoSQL and Power BI.
             </p>
           </div>
           <div className='logos'>
@@ -46,7 +47,7 @@ function CombinedPage() {
 
       <div id="projects" className='portfolio'>
         <h1>My Projects</h1>
-        <p>These projects showcase my expertise in handling data through meticulous processes of <b>cleaning</b>, <b>wrangling</b>, <b>analysis</b>, and <b>visualization</b>.</p>
+        <p><b>DATA</b> tells a story, and <b>DESIGN</b> gives a voice.<br></br>My goal is to transform raw and unclean information into meaningful insights,<br></br> crafting stunning visuals that not only inform but inspire action.</p>
         <div className='cards-container'>
           <div className='card'>
             <a href='project1' className='card-link'>
@@ -80,9 +81,26 @@ function CombinedPage() {
           <div className='card'>
             <a href='project4' className='card-link'>
               <div className='card-content'>
-             
                 <h2>HUMAN RESOURCE MANAGEMENT DASHBOARD FOR COMPANY TRACKING</h2>
                 <p>Excel and Power BI</p>
+                <button type='button'>Click to open</button>
+              </div>
+            </a>
+          </div>
+          <div className='card'>
+            <a href='project4' className='card-link'>
+              <div className='card-content'>
+                <h2>SQL QUERIES</h2>
+                <p>PostgresSQL</p>
+                <button type='button'>Click to open</button>
+              </div>
+            </a>
+          </div>
+          <div className='card'>
+            <a href='project4' className='card-link'>
+              <div className='card-content'>
+                <h2>Diabetes</h2>
+                <p>Python</p>
                 <button type='button'>Click to open</button>
               </div>
             </a>
