@@ -70,8 +70,19 @@ function CombinedPage() {
           <div className='card'>
             <a href='project3' className='card-link'>
               <div className='card-content'>
-                <h2>DASHBOARD CREATION FOR REAL ESTATE AND PROPERTY MANAGEMENT</h2>
-                <p>Power BI</p>
+                <img src="proj3_1.png" alt="real_estate" class="sales" />
+                <h2>REAL ESTATE AND PROPERTY MANAGEMENT DASHBOARD</h2>
+                <p>Excel and Power BI</p>
+                <button type='button'>Click to open</button>
+              </div>
+            </a>
+          </div>
+          <div className='card'>
+            <a href='project4' className='card-link'>
+              <div className='card-content'>
+             
+                <h2>HUMAN RESOURCE MANAGEMENT DASHBOARD FOR COMPANY TRACKING</h2>
+                <p>Excel and Power BI</p>
                 <button type='button'>Click to open</button>
               </div>
             </a>
