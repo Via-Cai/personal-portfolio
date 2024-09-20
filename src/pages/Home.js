@@ -60,21 +60,21 @@ function CombinedPage() {
             </a>
           </div>
           <div className='card'>
-            <a href='project2' className='card-link'>
-              <div className='card-content'>
-                <img src="pythonproj.png" alt="real_estate" class="sales" />
-                <h2>ETL: TEMPERATURE ANALYSIS AND DATA VISUALIZATION IN PASAY</h2>
-                <p>Python Libraries</p>
-                <button type='button'>Click to open</button>
-              </div>
-            </a>
-          </div>
-          <div className='card'>
             <a href='project3' className='card-link'>
               <div className='card-content'>
                 <img src="proj3_1.png" alt="real_estate" class="sales" />
                 <h2>REAL ESTATE AND PROPERTY MANAGEMENT DASHBOARD</h2>
                 <p>Excel and Power BI</p>
+                <button type='button'>Click to open</button>
+              </div>
+            </a>
+          </div>
+          <div className='card'>
+            <a href='project6' className='card-link'>
+              <div className='card-content'>
+              <img src="dailytask.png" alt="real_estate" class="sales" />
+                <h2>DAILY TASK WORKSHEET 1ST QUARTER 2022</h2>
+                <p>Excel Dashboard</p>
                 <button type='button'>Click to open</button>
               </div>
             </a>
@@ -98,11 +98,11 @@ function CombinedPage() {
             </a>
           </div>
           <div className='card'>
-            <a href='project6' className='card-link'>
+            <a href='project2' className='card-link'>
               <div className='card-content'>
-              <img src="dailytask.png" alt="real_estate" class="sales" />
-                <h2>DAILY TASK WORKSHEET 1ST QUARTER 2022</h2>
-                <p>Excel Dashboard</p>
+                <img src="pythonproj.png" alt="real_estate" class="sales" />
+                <h2>ETL: TEMPERATURE ANALYSIS AND DATA VISUALIZATION IN PASAY</h2>
+                <p>Firebase & Python Libraries</p>
                 <button type='button'>Click to open</button>
               </div>
             </a>
