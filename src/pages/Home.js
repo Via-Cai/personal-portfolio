@@ -62,8 +62,9 @@ function CombinedPage() {
           <div className='card'>
             <a href='project2' className='card-link'>
               <div className='card-content'>
-                <h2>TWO-WEEK TEMPERATURE ANALYSIS AND DATA VISUALIZATION IN PASAY CITY</h2>
-                <p>Python Libraries - Pandas, Seaborn & Matplotlib</p>
+                <img src="pythonproj.png" alt="real_estate" class="sales" />
+                <h2>ETL: TEMPERATURE ANALYSIS AND DATA VISUALIZATION IN PASAY</h2>
+                <p>Python Libraries</p>
                 <button type='button'>Click to open</button>
               </div>
             </a>
@@ -97,10 +98,11 @@ function CombinedPage() {
             </a>
           </div>
           <div className='card'>
-            <a href='project4' className='card-link'>
+            <a href='project6' className='card-link'>
               <div className='card-content'>
-                <h2>Diabetes</h2>
-                <p>Python</p>
+              <img src="dailytask.png" alt="real_estate" class="sales" />
+                <h2>DAILY TASK WORKSHEET 1ST QUARTER 2022</h2>
+                <p>Excel Dashboard</p>
                 <button type='button'>Click to open</button>
               </div>
             </a>
