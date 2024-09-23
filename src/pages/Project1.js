@@ -7,6 +7,9 @@ function Project1() {
       <div className='space'></div>
       <div className='pictures'>
         <img src="salesreport_dashboard.png" alt="Homepage"/>
+        <img src="sales2.png" alt="Data Set"/>
+        <img src="sales3.png" alt="UPDATED DATA set for Power bi"/>
+        <img src="sales4.png" alt="DATA Model"/>
         <img src="sourceparam.png" alt="Powerbi"/>
         <img src="mcode.png" alt="Powerbi"/>
         <img src="HomePage.png" alt="Powerbi"/>
