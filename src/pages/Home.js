@@ -52,7 +52,7 @@ function CombinedPage() {
           <div className='card'>
             <a href='project1' className='card-link'>
               <div className='card-content'>
-              <img src="sales.png" alt="sales" class="sales" />
+              <img src="/proj1/salesreport.png" alt="salesreport" class="sales" />
                 <h2>COMPANY SALES REPORT DASHBOARD FOR 2014-2017</h2>
                 <p>Excel and PowerBI</p>
                 <button type='button'>Click to open</button>
@@ -145,7 +145,7 @@ function CombinedPage() {
   {isLightboxOpen && (
     <div className="lightbox" onClick={closeLightbox}>
       <span className="close" onClick={closeLightbox}>&times;</span>
-      <img className="lightbox-content" src={lightboxImage} alt="Zoomed Image" />
+      <img className="lightbox-content" src={lightboxImage} alt="ZoomedImage" />
     </div>
   )}
 </div>

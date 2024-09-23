@@ -6,15 +6,13 @@ function Project1() {
     <div className='project1'>
       <div className='space'></div>
       <div className='pictures'>
-        <img src="salesreport_dashboard.png" alt="Homepage"/>
-        <img src="sales2.png" alt="Data Set"/>
-        <img src="sales3.png" alt="UPDATED DATA set for Power bi"/>
-        <img src="sales4.png" alt="DATA Model"/>
-        <img src="sourceparam.png" alt="Powerbi"/>
-        <img src="mcode.png" alt="Powerbi"/>
-        <img src="HomePage.png" alt="Powerbi"/>
-        {/* <img src="proj1_2.png" alt="Powerbi"/> */}
-        <img src="sales.png" alt="Powerbi"/>
+        <img src="/proj1/salesreport_dashboard1.png" alt="Homepage"/>
+        <img src="/proj1/sales2.png" alt="Data Set"/>
+        <img src="/proj1/sales3.png" alt="UPDATED DATA set for Power bi"/>
+        <img src="/proj1/sales4.png" alt="DATA Model"/>
+        <img src="/proj1/sourceparam.png" alt="Powerbi"/>
+        <img src="/proj1/mcode.png" alt="Powerbi"/>
+        <img src="/proj1/salesreport.png" alt="Powerbi"/>
      
       </div>
     </div>
