@@ -11,8 +11,8 @@ function Navbar() {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Caina_Allivia_Resume.pdf'; // Ensure this path is correct
-    link.download = 'Caina_Allivia_Resume.pdf'; // Filename for the downloaded file
+    link.href = '/RESUME - Caina, Allivia Jaazielle.pdf'; // Ensure this path is correct
+    link.download = 'RESUME - Caina, Allivia Jaazielle.pdf'; // Filename for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
