@@ -6,13 +6,12 @@ function Project4() {
     <div className='project1'>
       <div className='space'></div>
       <div className='pictures'>
-        {/* <h1>viaaaaaaaaa</h1>
-        <img src="proj3_1.png" alt="Overview"/>
-        <img src="proj3_2.png" alt="Map"/>
-        <img src="proj3_3.png" alt="About"/> */}
+        <h1>SQL QUERIES</h1>
+        {/* Ensure the path to the PDF is correct and relative to the public folder */}
+        <embed src="sql.pdf" width="800" height="600" type="application/pdf" />
       </div>
     </div>
-  )
+  );
 }
 
 export default Project4;
