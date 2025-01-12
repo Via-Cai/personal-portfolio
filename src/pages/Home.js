@@ -21,14 +21,13 @@ function CombinedPage() {
     <div className='combined-page'>
       <div id="home" className='home'>
         <div className='about'>
-          <img src='/prof4.jpg' alt='Profile' className='profile-picture' />
+          <img src='/viaprof3.jpg' alt='Profile' className='profile-picture' />
           <h3>Hi, my name is</h3>
           <h2>~VIA CAIÑA~</h2>
           <h4>Business Intelligence Analyst & Developer</h4>
           <div className='prompt'>
             <p>
-              A <b>Computer Engineering</b> fresh graduate of Adamson University. I am currently
-              focusing on Data Analytics, Data Engineering and Data Visualization using Excel, Python, PostgreSQL, NoSQL and Power BI.
+            A <b>Computer Engineering graduate</b> with a dual passions for <b>data analytics</b> and <b>design</b> converge in the quest to turn raw data into compelling stories. I utilize my expertise to not just interpret data, but to <b>reveal hidden patterns and trends.</b> With a passion for creating visually stunning and insightful dashboards, I'm eager to <b>translate numbers into narratives</b> that drive <b>informed decision-making.</b>
             </p>
           </div>
           <div className='logos'>
@@ -53,7 +52,7 @@ function CombinedPage() {
             <a href='project1' className='card-link'>
               <div className='card-content'>
               <img src="/proj1/salesreport.png" alt="salesreport" class="sales" />
-                <h2>COMPANY SALES REPORT DASHBOARD FOR 2014-2017</h2>
+                <h2>COMPANY SALES REPORT DASHBOARD FOR 2014 TO 2017</h2>
                 <p>Excel and PowerBI</p>
                 <button type='button'>Click to open</button>
               </div>
@@ -73,8 +72,8 @@ function CombinedPage() {
             <a href='project6' className='card-link'>
               <div className='card-content'>
               <img src="dailytask.png" alt="real_estate" class="sales" />
-                <h2>DAILY TASK WORKSHEET 1ST QUARTER 2022</h2>
-                <p>Excel Dashboard</p>
+                <h2>EMPLOYEE PRODUCTIVITY INSIGHTS DASHBOARD 2022</h2>
+                <p>Excel Dashboarding</p>
                 <button type='button'>Click to open</button>
               </div>
             </a>
