@@ -13,7 +13,7 @@ function Footer() {
             <a href = "https://github.com/Via-Cai" target="_blank"><GitHubIcon /></a>
             <a href = "mailto:via.caina@gmail.com" target="_blank"><EmailIcon /></a>
         </div>
-        <p>Allivia Jaazielle Caiña <br></br>09764774893 | via.caina@gmail.com <br></br> &copy; 2024 vercel.com </p>
+        <p>Via Caiña <br></br>09764774893 | via.caina@gmail.com <br></br> &copy; 2024 vercel.com </p>
     </div>
   )
 }
